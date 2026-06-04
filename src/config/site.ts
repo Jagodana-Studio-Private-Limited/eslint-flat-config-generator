@@ -1,175 +1,187 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "ESLint Flat Config Generator",
+  title: "ESLint Flat Config Generator — Create eslint.config.js Instantly",
+  description:
+    "Generate ESLint 9 flat configuration files (eslint.config.js) for React, Vue, Next.js, and Node.js projects. Supports TypeScript, Prettier integration, and custom rule presets.",
+  url: "https://eslint-flat-config-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Code2",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "eslint flat config generator",
+    "eslint.config.js generator",
+    "eslint 9 configuration",
+    "eslint typescript config",
+    "eslint react config",
+    "eslint nextjs config",
+    "eslint flat config tutorial",
+    "eslint prettier config",
+    "eslint config generator online",
+    "eslint flat config example",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/eslint-flat-config-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Free online ESLint flat config generator. Create eslint.config.js files for any JavaScript or TypeScript project in seconds — no signup required.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "React, Vue, Next.js & Node.js support",
+      "TypeScript-ready configuration",
+      "Prettier integration",
+      "Strict, recommended & minimal presets",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "ESLint 9 Flat Config Ready",
+    titleLine1: "Generate Your",
+    titleGradient: "eslint.config.js",
+    subtitle:
+      "Stop copy-pasting ESLint configs. Pick your framework, toggle TypeScript and Prettier, choose a rule preset — download a ready-to-use flat config in seconds.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "⚡",
+      title: "Instant Generation",
+      description:
+        "Configure your options and get a valid eslint.config.js or eslint.config.mjs with correct imports and plugins instantly.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🔧",
+      title: "Framework-Specific Rules",
+      description:
+        "Includes React Hooks, React Refresh, Vue, and Next.js-specific plugin configs out of the box.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🎯",
+      title: "TypeScript & Prettier",
+      description:
+        "Toggle TypeScript support with typescript-eslint and Prettier integration with a single click.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Gitignore Generator",
+      url: "https://gitignore-generator.tools.jagodana.com",
+      icon: "🚫",
+      description: "Generate .gitignore files for any project type.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "TSConfig Generator",
+      url: "https://tsconfig-generator.tools.jagodana.com",
+      icon: "📘",
+      description: "Generate TypeScript tsconfig.json files instantly.",
+    },
+    {
+      name: "Prettier Config Generator",
+      url: "https://prettier-config-generator.tools.jagodana.com",
+      icon: "✨",
+      description: "Generate .prettierrc configuration files.",
     },
     {
       name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
+      url: "https://regex-playground.tools.jagodana.com",
       icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      description: "Build, test and debug regular expressions in real-time.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "GitHub Actions Generator",
+      url: "https://github-actions-generator.tools.jagodana.com",
+      icon: "🚀",
+      description: "Generate GitHub Actions workflow YAML files.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "Dockerfile Generator",
+      url: "https://dockerfile-generator.tools.jagodana.com",
+      icon: "🐳",
+      description: "Generate production-ready Dockerfiles for any stack.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Select your framework",
+      text: "Choose React, Next.js, Vue, Node.js, or Vanilla JS from the Framework dropdown.",
+      url: "",
+    },
+    {
+      name: "Configure options",
+      text: "Toggle TypeScript support, Prettier integration, and choose a rule preset (Recommended, Strict, or Minimal).",
+      url: "",
+    },
+    {
+      name: "Copy or download the config",
+      text: "Click Copy to copy the generated eslint.config.js to your clipboard, or Download to save it directly.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is ESLint flat config?",
+      answer:
+        "ESLint flat config is the new configuration system introduced in ESLint v9. It uses a single eslint.config.js (or .mjs/.cjs) file instead of the old .eslintrc.* files. Flat config provides a simpler, more explicit way to configure ESLint using JavaScript, with native support for ES modules.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Do I need to install additional packages?",
+      answer:
+        "Yes — the generated config includes an npm install command at the top listing all required packages. For TypeScript projects you'll need typescript-eslint; for React you'll need eslint-plugin-react-hooks and eslint-plugin-react-refresh; for Prettier you'll need eslint-config-prettier.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Is the generated config compatible with ESLint 9?",
+      answer:
+        "Yes. All generated configs use the flat config format which is the default in ESLint 9+. If you're on ESLint 8, you can use flat config by setting ESLINT_USE_FLAT_CONFIG=true or using the --flag unstable_config_lookup_from_file flag.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What is the difference between the rule presets?",
+      answer:
+        "Recommended enables ESLint's recommended rule set — a safe baseline for most projects. Strict adds additional opinionated rules that catch more potential issues (e.g., typescript-eslint strict mode). Minimal disables most rules and only enables a small set of critical checks, ideal for gradually adopting ESLint in an existing codebase.",
+    },
+    {
+      question: "Can I use this config with Next.js App Router?",
+      answer:
+        "Yes. The Next.js preset includes the official @next/eslint-plugin-next plugin with core-web-vitals rules, and disables the no-img-element rule for App Router projects. TypeScript support is included by default for Next.js.",
+    },
+    {
+      question: "Is this tool free and does it store my config?",
+      answer:
+        "Completely free and 100% client-side. No data is sent to a server — the config is generated entirely in your browser. Nothing is stored or logged.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title:
+        "ESLint Flat Config Generator — Create eslint.config.js Instantly",
+      description:
+        "Generate ESLint 9 flat configuration files (eslint.config.js) for React, Vue, Next.js, and Node.js projects. Supports TypeScript, Prettier integration, and custom rule presets.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
+
 } as const;
 
 export type SiteConfig = typeof siteConfig;
